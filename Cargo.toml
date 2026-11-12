@@ -1,0 +1,15 @@
+[package]
+name = "khvarenah-blackout"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dariush Khosrowan <dariush@khosrowan.ir>"]
+license = "MIT"
+description = "Khvarenah blackout edition — zero-config, self-healing circumvention engine for total internet blackout (Iranian NIN). Independent, isolated project."
+repository = "https://github.com/DariushKhosrowan/khvarenah-blackout"
+keywords = ["censorship", "circumvention", "dns-tunnel", "anti-censorship", "blackout"]
+categories = ["network-programming", "cryptography"]
+
+[dependencies]
+# std-only for the ARQ engine; add crates as subsystems land.
+
+[dev-dependencies]
